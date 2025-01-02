@@ -7,8 +7,8 @@ const Nav: React.FC = () => {
         <nav>
             <ul className={styles.navList}>
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/src/app/about">About</Link></li>
-                <li><Link href="/src/app/mission">Mission nuts</Link></li>
+                <li><Link href="/about">About</Link></li>
+                <li><Link href="/mission">Mission nuts</Link></li>
             </ul>
         </nav>
     );
