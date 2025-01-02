@@ -1,10 +1,8 @@
 import React from 'react';
-import Nav from "@/components/Nav";
 
-const About: React.FC = () => {
+const Page: React.FC = () => {
     return (
         <div>
-            <Nav/>
             <h1>page page age</h1>
             <p>hu tao fans.</p>
 
@@ -12,4 +10,4 @@ const About: React.FC = () => {
     );
 };
 
-export default About;
+export default Page;
